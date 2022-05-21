@@ -38,6 +38,19 @@
     </ul>
    <p>NOTE: This package is not verified by, affiliated with, or supported by Gaijin.</p>
    <p>NOTE: This installs the launcher into the user data directory. Expect storage usage of 14GB+</p>
+        <p>Below is the steps to run this flatpak in a custom directory</p>
+        <ol>
+            <li>Open Flatseal</li>
+            <li>Select WarThunder on the left</li>
+            <li>Scroll down to "Filesystem", "Other files"</li>
+            <li>Add a new entry via the icon with a "folder" and "plus" sign</li>
+            <li>Input the path you want to let WarThunder run in. IE `/home/name/Games/WarThunder`</li>
+            <li>Scroll down to "Environment", "Variables"</li>
+            <li>Click the "plus" sign to add a new entry</li>
+            <li>Write down an enviroment variable, IE `CUSTOM_DIR=/home/name/Games/WarThunder`</li>
+            <li>Run WarThunder</li>
+            <li>Notice that WarThunder is now working using CUSTOM_DIR</li>
+        </ol>
   </description>
   <screenshots>
     
