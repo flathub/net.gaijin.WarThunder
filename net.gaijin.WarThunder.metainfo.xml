@@ -47,7 +47,7 @@
             <li>Input the path you want to let WarThunder run in. IE `/home/name/Games/WarThunder`</li>
             <li>Scroll down to "Environment", "Variables"</li>
             <li>Click the "plus" sign to add a new entry</li>
-            <li>Write down an enviroment variable, IE `CUSTOM_DIR=/home/name/Games/ATLauncher`</li>
+            <li>Write down an enviroment variable, IE `CUSTOM_DIR=/home/name/Games/WarThunder`</li>
             <li>Run WarThunder</li>
             <li>Notice that WarThunder is now working using CUSTOM_DIR</li>
         </ol>
