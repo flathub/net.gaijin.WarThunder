@@ -21,7 +21,6 @@ add-extensions:
   com.valvesoftware.Steam.Utility.gamescope:
     version: stable
     add-ld-path: lib
-    no-autodownload: true
     directory: utils/gamescope
 
 modules:
