@@ -51,6 +51,9 @@
             <li>Run WarThunder</li>
             <li>Notice that WarThunder is now working using CUSTOM_DIR</li>
         </ol>
+				<p>This flatpak runs with gamescope to prevent xorg crashes.</p>
+				<p>To modify gamescope args, use the following commands, filling in the arguments between the parenthesis"</p>
+				<p>flatpak override --user net.gaijin.WarThunder --env=GAMESCOPE_ARGS=""</p>
   </description>
   <screenshots>
     

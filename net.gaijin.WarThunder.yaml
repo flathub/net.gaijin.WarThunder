@@ -6,14 +6,28 @@ command: run.sh
 tags:
   - proprietary
 finish-args:
-  - --socket=x11
-  - --device=dri
+  - --device=dri # GPU
+  - --socket=x11 # X11
+  - --socket=wayland # Gamescope
+  - --socket=fallback-x11 # Gamescope on X11
   # =all for controller support
   - --device=all
   - --socket=pulseaudio
   - --share=network
+    # gamescope
+  - --env=PATH=/app/bin:/app/utils/gamescope/bin:/usr/bin
+
+add-extensions:
+  com.valvesoftware.Steam.Utility.gamescope:
+    version: stable
+    add-ld-path: lib
+    directory: utils/gamescope
 
 modules:
+  - name: gamescope
+    buildsystem: simple
+    build-commands:
+      - mkdir -p /app/utils/gamescope
   - name: warthunder
     buildsystem: simple
     build-commands:

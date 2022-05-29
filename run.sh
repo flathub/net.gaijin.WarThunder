@@ -18,4 +18,9 @@ if [[ ! -f "$DATA_VERSION" ]] || [[ `cmp --silent "$FLAT_VERSION" "$DATA_VERSION
 fi
 
 # Execute launcher
-exec "${DIR}/WarThunder/launcher"
+if command -v gamescope &> /dev/null
+then
+	exec echo "${GAMESCOPE_ARGS:-""} -- ${DIR}/WarThunder/launcher"  | xargs gamescope
+else
+	exec "${DIR}/WarThunder/launcher"
+fi
