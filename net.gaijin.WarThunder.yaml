@@ -12,6 +12,12 @@ finish-args:
   - --device=all
   - --socket=pulseaudio
   - --share=network
+add-extensions:
+  com.valvesoftware.Steam.Utility.gamescope:
+    version: stable
+    add-ld-path: lib
+    no-autodownload: true
+    directory: utils/gamescope
 
 modules:
   - name: warthunder
