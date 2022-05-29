@@ -7,6 +7,7 @@ DATA_VERSION="${DIR}/WarThunder/version"
 
 # Extract
 if [[ ! -f "$DATA_VERSION" ]] || [[ `cmp --silent "$FLAT_VERSION" "$DATA_VERSION"; echo $?` -ne 0 ]] ; then
+	mkdir -p "${DIR}/WarThunder"
 	cp -f "$FLAT_VERSION" "$DATA_VERSION"
 	tar -xv --gzip -f "$SRC" -C "$DIR"
 fi
