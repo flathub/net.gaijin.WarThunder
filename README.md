@@ -5,8 +5,8 @@ Game produced by Gaijin, This flatpak is not associated with Gaijin, Supported b
 
 ## Gamescope
 
-By installing gamescope via `flatpak install com.valvesoftware.Steam.Utility.gamescope`,
-One can run WarThunder with gamescope.
+This flatpak utilizes gamescope via the [utility package](https://github.com/flathub/com.valvesoftware.Steam.Utility.gamescope).
+This can be installed manually via `flatpak install com.valvesoftware.Steam.Utility.gamescope`,
 
 ### Arguments
 
