@@ -17,10 +17,12 @@ if [[ ! -f "$DATA_VERSION" ]] || [[ `cmp --silent "$FLAT_VERSION" "$DATA_VERSION
 	tar -xv --gzip -f "$SRC" -C "$DIR"
 fi
 
-# Execute launcher
+COMMAND="${DIR}/WarThunder/launcher"
+
+# Check for gamescope
 if command -v gamescope &> /dev/null
 then
-	exec echo "${GAMESCOPE_ARGS:-""} -- ${DIR}/WarThunder/launcher"  | xargs gamescope
+	exec gamescope ${GAMESCOPE_ARGS:-""} -- gamemoderun $COMMAND
 else
-	exec "${DIR}/WarThunder/launcher"
+	exec gamemoderun $COMMAND
 fi
