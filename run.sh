@@ -22,7 +22,7 @@ COMMAND="${DIR}/WarThunder/launcher"
 # Check for gamescope
 if command -v gamescope &> /dev/null
 then
-	exec gamescope ${GAMESCOPE_ARGS:-""} -- gamemoderun $COMMAND
+	exec echo "${GAMESCOPE_ARGS:-""} -- gamemoderun $COMMAND" | xargs gamescope
 else
 	exec gamemoderun $COMMAND
 fi
