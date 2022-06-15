@@ -59,7 +59,7 @@ modules:
     sources:
       - type: extra-data
         filename: wt.tar.gz
-        url: https://cdnnow-distr.gaijinent.com/wt_launcher_linux_0.9.4.85.tar.gz
+        url: https://aws-yup-distr-03.gaijinent.com/wt_launcher_linux_0.9.4.85.tar.gz
         sha256: 5120f29f30db36e92a4ef84faabb9150d816c6f98e52430829fd6bdfd5a277b1
         # curl -s -L -I "URL" | gawk -v IGNORECASE=1 '/^Content-Length/ { print $2 }'
         x-checker-data:
