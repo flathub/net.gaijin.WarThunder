@@ -17,6 +17,17 @@ if [[ ! -f "$DATA_VERSION" ]] || [[ `cmp --silent "$FLAT_VERSION" "$DATA_VERSION
 	tar -xv --gzip -f "$SRC" -C "$DIR"
 fi
 
+# Set Dev Server
+
+# Add matchingdevmode file
+touch "${DIR}/WarThunder/matchingdevmode"
+
+# If config does not exist, then fill up the config with the special attributes
+
+if [[ ! -f "${DIR}/WarThunder/config.blk" ]] ; then
+	cat "yunetwork{\n	curCircuit:t=\"dev\"\n	isExpertMode:b=yes\n}" > "${DIR}/WarThunder/config.blk"
+fi
+
 COMMAND="${DIR}/WarThunder/launcher"
 
 # Check for gamescope
