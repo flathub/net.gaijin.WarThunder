@@ -15,19 +15,19 @@ finish-args:
   - --socket=pulseaudio
   - --share=network
     # gamescope
-  - --env=PATH=/app/bin:/app/utils/gamescope/bin:/usr/bin
+#  - --env=PATH=/app/bin:/app/utils/gamescope/bin:/usr/bin
 
-add-extensions:
-  com.valvesoftware.Steam.Utility.gamescope:
-    version: stable
-    add-ld-path: lib
-    directory: utils/gamescope
+#add-extensions:
+#  com.valvesoftware.Steam.Utility.gamescope:
+#    version: stable
+#    add-ld-path: lib
+#    directory: utils/gamescope
 
 modules:
-  - name: gamescope
-    buildsystem: simple
-    build-commands:
-      - mkdir -p /app/utils/gamescope
+#  - name: gamescope
+#    buildsystem: simple
+#    build-commands:
+#      - mkdir -p /app/utils/gamescope
 
   - name: gamemode
     buildsystem: meson
