@@ -1,7 +1,7 @@
 app-id: net.gaijin.WarThunder
-runtime: org.gnome.Platform
-runtime-version: '41'
-sdk: org.gnome.Sdk
+runtime: org.freedesktop.Platform
+runtime-version: '22.08'
+sdk: org.freedesktop.Sdk
 command: run.sh
 tags:
   - proprietary
