@@ -7,9 +7,9 @@ tags:
   - proprietary
 finish-args:
   - --device=dri # GPU
-  - --socket=x11 # X11
   - --socket=wayland # Gamescope
   - --socket=fallback-x11 # Gamescope on X11
+  - --share=ipc # For fallback IPC
   # =all for controller support
   - --device=all
   - --socket=pulseaudio
