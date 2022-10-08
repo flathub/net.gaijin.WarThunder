@@ -6,7 +6,7 @@ command: run.sh
 tags:
   - proprietary
 finish-args:
-  - --device=dri # GPU
+  #- --device=dri # GPU
   - --socket=wayland # Gamescope
   - --socket=fallback-x11 # Gamescope on X11
   - --share=ipc # For fallback IPC
