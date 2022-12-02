@@ -19,7 +19,6 @@ finish-args:
 
 add-extensions:
   com.valvesoftware.Steam.Utility.gamescope:
-    version: 40698fab2963a0bc6fb2e1d9fdc3c018f7ff1284611d0c8b40ed2338d77a38ea
     add-ld-path: lib
     directory: utils/gamescope
 
