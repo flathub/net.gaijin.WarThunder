@@ -20,6 +20,7 @@ finish-args:
 add-extensions:
   com.valvesoftware.Steam.Utility.gamescope:
     add-ld-path: lib
+    version: stable
     directory: utils/gamescope
 
 modules:
