@@ -59,14 +59,14 @@ modules:
     sources:
       - type: extra-data
         filename: wt.tar.gz
-        url: https://aws-yup-distr-04.gaijinent.com/wt_launcher_linux_0.9.4.104.tar.gz
-        sha256: 9acdaee94bd327f29a2eb25f165c51b9cf8968f1ea49b75ebc895d936a5439cb
+        url: https://aws-yup-distr-01.gaijinent.com/wt_launcher_linux_0.9.4.105.tar.gz
+        sha256: cacae4d8139ad0ec3370221971ff37ec4cffeea8f8717fc1a1ccc43bb57b30ff
         # curl -s -L -I "URL" | gawk -v IGNORECASE=1 '/^Content-Length/ { print $2 }'
         x-checker-data:
           type: rotating-url
           url: https://yupmaster.gaijinent.com/launcher/current.php?id=WarThunderLauncherLinux
           pattern: https://cdnnow-distr.gaijinent.com/wt_launcher_linux_([0-9.]+).tar.gz
-        size: 20346157
+        size: 20347204
       - type: file
         path: run.sh
       - type: file
