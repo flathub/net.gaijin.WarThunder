@@ -65,7 +65,7 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://yupmaster.gaijinent.com/launcher/current.php?id=WarThunderLauncherLinux
-          pattern: https://cdnnow-distr.gaijinent.com/wt_launcher_linux_([0-9.]+).tar.gz
+          pattern: https:\/\/cdnnow-distr\.gaijinent\.com\/wt_launcher_linux_([\d.]+)\.tar\.gz
         size: 20432445
       - type: file
         path: run.sh
