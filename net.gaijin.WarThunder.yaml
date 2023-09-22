@@ -16,7 +16,7 @@ finish-args:
   - --share=network
     # gamescope
   - --env=PATH=/app/bin:/app/utils/gamescope/bin:/usr/bin
-  - --env=INTEL_DEBUG=norpc
+  - --env=INTEL_DEBUG=norbc
 
 add-extensions:
   com.valvesoftware.Steam.Utility.gamescope:
