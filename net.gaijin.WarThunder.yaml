@@ -15,21 +15,14 @@ finish-args:
   - --socket=pulseaudio
   - --share=network
     # gamescope
-  - --env=PATH=/app/bin:/app/utils/gamescope/bin:/usr/bin
+  - --env=PATH=/app/bin:/usr/bin:/usr/lib/extensions/vulkan/gamescope/bin
   - --env=INTEL_DEBUG=norbc
 
 add-extensions:
-  com.valvesoftware.Steam.Utility.gamescope:
+  org.freedesktop.Platform.VulkanLayer.gamescope:
     add-ld-path: lib
-    version: stable
-    directory: utils/gamescope
 
 modules:
-  - name: gamescope
-    buildsystem: simple
-    build-commands:
-      - mkdir -p /app/utils/gamescope
-
   - name: gamemode
     buildsystem: meson
     config-opts:
