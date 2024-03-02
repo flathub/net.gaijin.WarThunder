@@ -4,7 +4,7 @@
   <launchable type="desktop-id">net.gaijin.WarThunder.desktop</launchable>
   <name>War Thunder</name>
   <developer_name>Gaijin Entertainment</developer_name>
-  <summary>War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game.</summary>
+  <summary>MMO Military Game</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://warthunder.com/support/eula</project_license>
   <url type="homepage">https://warthunder.com</url>
