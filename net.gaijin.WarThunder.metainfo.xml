@@ -61,9 +61,12 @@
       <video container="webm">https://cdn.cloudflare.steamstatic.com/steam/apps/256905835/movie_max_vp9.webm</video>
       <video container="webm">https://cdn.cloudflare.steamstatic.com/steam/apps/2032399/movie_max.webm</video>
     </screenshot>
-    
+
+	<screenshot type="default">
+		<image>https://raw.githubusercontent.com/flathub/net.gaijin.WarThunder/quality/screenshots/versions.png
+	</screenshot>
     <!-- Update Wallpapers Start -->
-    <screenshot type="default">
+    <screenshot>
       <image>https://static.warthunder.com/upload/image/0_Wallpaper_Renders/1920x1080_apex_predators_logo_054f1ade344be93f756d99c28e371981.jpg</image>
     </screenshot>
     
