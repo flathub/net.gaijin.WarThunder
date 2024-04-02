@@ -20,6 +20,10 @@
     <control>keyboard</control>
     <control>gamepad</control>
   </supports>
+	<branding>
+		<color type="primary" scheme_preference="light">#ea271f</color>
+		<color type="primary" scheme_preference="dark">#b31e14</color>
+	</branding>
   <custom>
     <value key="net.gaijin.WarThunder::app_color">#ea271f</value>
   </custom>
