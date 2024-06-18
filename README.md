@@ -5,7 +5,7 @@ Game produced by Gaijin, This flatpak is not associated with Gaijin, Supported b
 ## Gamescope
 
 This flatpak utilizes gamescope via the [utility package](https://github.com/flathub/com.valvesoftware.Steam.Utility.gamescope).
-This can be installed manually via `flatpak install com.valvesoftware.Steam.Utility.gamescope`,
+This can be installed manually via `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope`,
 
 ### Arguments
 
