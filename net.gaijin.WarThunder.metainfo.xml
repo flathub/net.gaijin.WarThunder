@@ -8,7 +8,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://warthunder.com/support/eula</project_license>
   <url type="homepage">https://warthunder.com</url>
-  <url type="bugtracker">https://forum.warthunder.com/index.php?/forum/923-linux-related-problems-advice</url>
+  <url type="bugtracker">https://community.gaijin.net/issues/p/warthunder</url>
   <url type="faq">https://warthunder.com/game/faq</url>
   <url type="help">https://support.gaijin.net</url>
   <url type="contact">https://gaijinent.com/contacts</url>
@@ -47,7 +47,7 @@
             <li>Input the path you want to let WarThunder run in. IE `/home/name/Games/WarThunder`</li>
             <li>Scroll down to "Environment", "Variables"</li>
             <li>Click the "plus" sign to add a new entry</li>
-            <li>Write down an enviroment variable, IE `CUSTOM_DIR=/home/name/Games/WarThunder`</li>
+            <li>Write down an enviroment variable, IE `CUSTOM_DIR=/home/name/Games/` (NOTICE: WarThunder is not included here)</li>
             <li>Run WarThunder</li>
             <li>Notice that WarThunder is now working using CUSTOM_DIR</li>
         </ol>
@@ -58,109 +58,165 @@
   <screenshots>
     
     <screenshot>
-      <video container="webm">https://cdn.cloudflare.steamstatic.com/steam/apps/256879216/movie_max_vp9.webm</video>
+      <video container="webm">https://cdn.cloudflare.steamstatic.com/steam/apps/256905835/movie_max_vp9.webm</video>
       <video container="webm">https://cdn.cloudflare.steamstatic.com/steam/apps/2032399/movie_max.webm</video>
     </screenshot>
     
+    <!-- Update Wallpapers Start -->
     <screenshot type="default">
-      <image>https://static.warthunder.com/upload/image/wallpapers/1920x1080_logo_wind_of_change_a_10a_eng_655463f31e48b2956f252c39daa59505.jpg</image>
+      <image>https://static.warthunder.com/upload/image/0_Wallpaper_Renders/1920x1080_apex_predators_logo_054f1ade344be93f756d99c28e371981.jpg</image>
     </screenshot>
     
     <screenshot>
-      <image>https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_6b8b7310dce06e8eb5e0cb3b203ba19aa65df442.1920x1080.jpg</image>
+      <image>https://static.warthunder.com/upload/image//0_Wallpaper_Renders/_thumbs/1000x/1920x1080_apex_predators_m1128_wolfpack_logo_48740154b0ddf60b17c4fa4516bb2e1e.jpg</image>
     </screenshot>
     
     <screenshot>
-      <image>https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_122cf1a37b5405f055afe58539997ff139b1fde2.1920x1080.jpg</image>
+      <image>https://static.warthunder.com/upload/image//0_Wallpaper_Renders/_thumbs/1000x/1920x1080_apex_predators_cruiser_garibaldi_logo_a43558f8566f20353764219288c96c02.jpg</image>
     </screenshot>
-    
-    <screenshot>
-      <image>https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_b1e9395fa10a5d7e16d0f4326a41618edfe7b399.1920x1080.jpg</image>
-    </screenshot>
-    
-    <screenshot>
-      <image>https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_a997036262cd5316e54e0b4ab257ea0ddaa212df.1920x1080.jpg</image>
-    </screenshot>
+
+    <!-- Update Wallpapers End -->
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_327bd172a97b38ede1d45d344dc618c3134600f1.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_3801dc6ae62e793aee2f073c2ac755c85edf0bb7.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_5641e09b57b5994e948022b8cc8e51070df04580.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_3b32e04e856b77472bff33d55ca6b5758d23a9ae.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_979529bc97de6add045f5984c8dbf9d4d80d0061.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_15343f845523e07d5fc51c6208f362b7bcaa1fbe.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_c7ce570c838d85139ef4f863ab0f6148e66c3577.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_070f48bca52544a2067bd2da93489df54c616d5a.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_28d3e2b67dd2d442ff2cf5a82fd91cd54ee8cd73.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_7c531b0c5c56c96345206a27a0a68ff1b510fa8f.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_8c22f8f02cd591c182decfff7b10ce690f30c052.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_aef518de9c6987834e6302075e712911663669a2.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_a2d9ec25f81e89139efaf49378e7b33b6f64e0cc.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_2db2db271ad8363ff47be7ca3e76566c30be38dc.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_a40a2b54b7ac99d04f1e99eee942e794154ac661.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_09642f242b3f5dffbce9bc0717c4db781ef4263e.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_0bafa46988cf67371ab278dea3062f0935ed3b97.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_eab61adb6e3256139aa68b4d8b0d6f4ebee41714.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_ac85effa3db97f927d77d60dd667406d96304563.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_8c22f8f02cd591c182decfff7b10ce690f30c052.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_8f0295eb9e38bede5f0ba13c0b3abae74ebdf72e.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_b55e723b5a7bd4d7838fd0d873470e32ad21a63c.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_5789fcd277c78d2875cdbe45a4d32aa53cf8b960.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_889bd1ff61883d96ba7a5b1687eec6a17574e754.1920x1080.jpg
       </image>
     </screenshot>
     
     <screenshot>
       <image>
-      https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_c0e60a2955c8a5f20bcdace496d7aeed893a8cf2.1920x1080.jpg
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_6b8b7310dce06e8eb5e0cb3b203ba19aa65df442.1920x1080.jpg
+      </image>
+    </screenshot>
+    
+    <screenshot>
+      <image>
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_aba9339d62c1da97f731cf914f89938053ff69d5.1920x1080.jpg
+      </image>
+    </screenshot>
+    
+    <screenshot>
+      <image>
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_a997036262cd5316e54e0b4ab257ea0ddaa212df.1920x1080.jpg
+      </image>
+    </screenshot>
+    
+    <screenshot>
+      <image>
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_b1e9395fa10a5d7e16d0f4326a41618edfe7b399.1920x1080.jpg
+      </image>
+    </screenshot>
+    
+    <screenshot>
+      <image>
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_327bd172a97b38ede1d45d344dc618c3134600f1.1920x1080.jpg
+      </image>
+    </screenshot>
+    
+    <screenshot>
+      <image>
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_5641e09b57b5994e948022b8cc8e51070df04580.1920x1080.jpg
+      </image>
+    </screenshot>
+    
+    <screenshot>
+      <image>
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_c7ce570c838d85139ef4f863ab0f6148e66c3577.1920x1080.jpg
+      </image>
+    </screenshot>
+    
+    <screenshot>
+      <image>
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_a2d9ec25f81e89139efaf49378e7b33b6f64e0cc.1920x1080.jpg
+      </image>
+    </screenshot>
+    
+    <screenshot>
+      <image>
+https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_122cf1a37b5405f055afe58539997ff139b1fde2.1920x1080.jpg
       </image>
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.0.3.15" date="2024-07-02">
+      <description></description>
+    </release>
+    <release version="1.0.3.3" date="2024-05-31">
+      <description/>
+    </release>
+    <release version="0.9.4.116" date="2023-06-13"/>
+    <release version="0.9.4.114" date="2023-06-11"/>
+    <release version="0.9.4.106" date="2023-03-08"/>
+    <release version="0.9.4.105" date="2023-03-08"/>
+    <release version="0.9.4.104" date="2023-03-03"/>
+    <release version="0.9.4.92" date="2022-10-06"/>
+    <release version="0.9.4.91" date="2022-09-14"/>
     <release version="0.9.4.88" date="2022-07-21"/>
     <release version="0.9.4.85" date="2022-06-15"/>
     <release version="0.9.4.83" date="2022-03-30"/>
