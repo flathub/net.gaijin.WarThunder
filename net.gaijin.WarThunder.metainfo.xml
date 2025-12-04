@@ -204,8 +204,11 @@ https://cdn.cloudflare.steamstatic.com/steam/apps/236390/ss_122cf1a37b5405f055af
     </screenshot>
   </screenshots>
   <releases>
-    <release version="1.0.3.26" date="2025-06-16">
+    <release version="1.0.3.38" date="2025-11-27">
       <description></description>
+    </release>
+    <release version="1.0.3.26" date="2025-06-16">
+      <description/>
     </release>
     <release version="1.0.3.25" date="2025-03-10">
       <description/>
