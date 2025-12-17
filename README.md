@@ -1,12 +1,11 @@
-# WarThunder
-[WarThunder](https://warthunder.com)
+# [WarThunder](https://warthunder.com)
 
 Game produced by Gaijin, This flatpak is not associated with Gaijin, Supported by, or affiliated with.
 
 ## Gamescope
 
 This flatpak utilizes gamescope via the [utility package](https://github.com/flathub/com.valvesoftware.Steam.Utility.gamescope).
-This can be installed manually via `flatpak install com.valvesoftware.Steam.Utility.gamescope`,
+This can be installed manually via `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope`,
 
 ### Arguments
 
@@ -42,6 +41,6 @@ Steps:
 5. Input the path you want to let War Thunder run in. IE `/home/name/Games/WarThunder`
 6. Scroll down to "Environment", "Variables"
 7. Click the "plus" sign to add a new entry
-8. Write down an enviroment variable, IE `CUSTOM_DIR=/home/name/Games/WarThunder`
+8. Write down an enviroment variable, IE `CUSTOM_DIR=/home/name/Games/` (NOTICE: WarThunder is not included here)
 9. Run War Thunder
 10. Notice that War Thunder is now working using CUSTOM_DIR
