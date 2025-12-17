@@ -36,8 +36,9 @@
      <li>Astonishing graphics, authentic sound effects and beautiful music creating an atmosphere to fully immerse yourself in.</li>
      <li>Create custom content for War Thunder and share it on War Thunder Live, with the prospect of earning real money through the Revenue Share Partner System!</li>
     </ul>
-   <p>NOTE: This package is not verified by, affiliated with, or supported by Gaijin.</p>
-   <p>NOTE: This installs the launcher into the user data directory. Expect storage usage of 14GB+</p>
+   <p>*NOTE:*</p>
+   <p>This package is not verified by, affiliated with, or supported by Gaijin.</p>
+   <p>This installs the launcher into the user data directory. Expect storage usage of 14GB+</p>
         <p>Below is the steps to run this flatpak in a custom directory</p>
         <ol>
             <li>Open Flatseal</li>
