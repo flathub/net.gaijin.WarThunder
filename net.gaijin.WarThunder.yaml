@@ -1,6 +1,6 @@
 app-id: net.gaijin.WarThunder
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: run.sh
 tags:
@@ -32,11 +32,12 @@ modules:
       - -Dwith-util=false
       - -Dwith-sd-bus-provider=no-daemon
     sources: &gamemode_sources
-      - type: archive
-        url: https://github.com/FeralInteractive/gamemode/releases/download/1.6.1/gamemode-1.6.1.tar.xz
-        sha256: 10c2a3f142eae472f5a09e42616e38c666c05b25ca3e61e562a543bb3fda66c5
-      - type: patch
-        path: gamemode.patch
+      - type: git
+        url: https://github.com/FeralInteractive/gamemode.git
+        tag: 1.8.2
+        commit: c54d6d4243b0dd0afcb49f2c9836d432da171a2b
+        x-checker-data:
+          type: git
 
   - name: gamemoderun
     buildsystem: simple
