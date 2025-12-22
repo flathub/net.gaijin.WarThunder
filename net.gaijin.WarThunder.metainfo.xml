@@ -4,7 +4,7 @@
   <launchable type="desktop-id">net.gaijin.WarThunder.desktop</launchable>
   <name>War Thunder</name>
   <developer_name>Gaijin Entertainment</developer_name>
-  <summary>War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game.</summary>
+  <summary>MMO Military Game</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://warthunder.com/support/eula</project_license>
   <url type="homepage">https://warthunder.com</url>
@@ -20,6 +20,10 @@
     <control>keyboard</control>
     <control>gamepad</control>
   </supports>
+	<branding>
+		<color type="primary" scheme_preference="light">#ea271f</color>
+		<color type="primary" scheme_preference="dark">#b31e14</color>
+	</branding>
   <custom>
     <value key="net.gaijin.WarThunder::app_color">#ea271f</value>
   </custom>
@@ -62,9 +66,12 @@
       <video container="webm">https://cdn.cloudflare.steamstatic.com/steam/apps/256905835/movie_max_vp9.webm</video>
       <video container="webm">https://cdn.cloudflare.steamstatic.com/steam/apps/2032399/movie_max.webm</video>
     </screenshot>
-    
+
+	<screenshot type="default">
+		<image>https://raw.githubusercontent.com/flathub/net.gaijin.WarThunder/quality/screenshots/versions.png
+	</screenshot>
     <!-- Update Wallpapers Start -->
-    <screenshot type="default">
+    <screenshot>
       <image>https://static.warthunder.com/upload/image/0_Wallpaper_Renders/1920x1080_apex_predators_logo_054f1ade344be93f756d99c28e371981.jpg</image>
     </screenshot>
     
