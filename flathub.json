@@ -1,4 +1,5 @@
 {
 	"only-arches": ["x86_64"],
-	"automerge-flathubbot-prs": false
+	"automerge-flathubbot-prs": false,
+	"end-of-life": "This application is no longer maintained.\nUse Steam for better compatibility and stability\nMove your '.../War Thunder/' folder to Steams '.../steamapps/common/' folder (ensuring the name has the space and proper capitalization), then install War Thunder from the Steam Store to avoid redownloading."
 }
